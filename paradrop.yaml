@@ -1,0 +1,3 @@
+version: 1
+use: node
+command: node index.js
