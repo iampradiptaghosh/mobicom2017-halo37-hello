@@ -1,3 +1,4 @@
 version: 1
+type: light
 use: node
 command: node index.js
