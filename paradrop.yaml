@@ -1,4 +1,11 @@
-version: 1
+name: node-hello-world
+description: This chute demonstrates a simple web service.
+source:
+  type: git
+  url: https://github.com/ParadropLabs/node-hello-world
 type: light
 use: node
 command: node index.js
+config:
+  web:
+    port: 3000
